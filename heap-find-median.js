@@ -1,3 +1,37 @@
+// function binarySearch(arr, target, l, r) {
+//     if (l === r) {
+//         return arr[l] > target ? l : l + 1;
+//     }
+//     let mid = Math.floor((l + r) / 2);
+//     if (arr[mid] < target) return binarySearch(arr, target, mid + 1, r);
+//     if (arr[mid] > target) return binarySearch(arr, target, l, mid);
+//     return mid;
+// }
+//
+// var MedianFinder = function() {
+//     this.arr = [];
+// };
+//
+// MedianFinder.prototype.addNum = function(num) {
+//     if (this.arr.length === 0) {
+//         this.arr.push(num);
+//         return;
+//     }
+//     let index = binarySearch(this.arr, num, 0, this.arr.length - 1);
+//     this.arr.splice(index, 0, num);
+// };
+//
+// MedianFinder.prototype.findMedian = function() {
+//     if (this.arr.length === 0) {
+//         return null;
+//     }
+//     let mid = this.arr.length / 2;
+//     if (this.arr.length % 2 === 0) {
+//         return ((this.arr[mid] + this.arr[mid - 1]) / 2);
+//     }
+//     return this.arr[Math.floor(mid)];
+// };
+
 const MinComparator = (a, b) => { return a - b; }
 const MaxComparator = (a, b) => { return b - a; }
 
