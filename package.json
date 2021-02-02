@@ -1,0 +1,17 @@
+{
+	"name": "leetcode-pratcie",
+	"version": "1.0.0",
+	"description": "",
+	"main": "",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"jest": "^25.2.3",
+		"nodemon": "^2.0.3"
+	}
+}
